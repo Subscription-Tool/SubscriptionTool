@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "subscriptiontool",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -49,8 +49,8 @@
     "uniqCompNum": 35,
     "versionPublish": "4.12.3",
     "imageResize": true,
-    "sitemapSwitcher": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "siteUrl": "https://subscriptiontool.com/",
     "sitemapSwitcherAuto": "on",
     "favicon": false,
     "robotsSwitcher": false,
@@ -61,8 +61,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "SubscriptionTool.com - Buy and Sell Premium Account Subscription",
+        "meta_descr": "Subscription Tool is Online Subscription Sharing Tool. In this Tool you can share subscription (Netflix, Amazon Prime, Hotstar) to Earn Money and Buy Subscription (Netflix, Amazon Prime, Hotstar).",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -556,11 +556,11 @@
           "_name": "image2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"79\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#55b4d4\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/brand-logo-removebg-preview-1265x198.png\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rVVfLxqI1F",
+          "_anchor": "image2-y",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-y"
+          "_params": {}
         },
         {
           "alias": false,
@@ -828,8 +828,8 @@
     },
     "about.html": {
       "settings": {
-        "meta_descr": "Web Site Creator Description",
-        "title": "About",
+        "meta_descr": "Subscription Tool is online subscription sharing tool where you can Buy Subscription in cheap price and Sell Subscription to earn money.",
+        "title": "About - SubscriptionTool.com",
         "order": 4
       },
       "components": [
@@ -1382,8 +1382,8 @@
     },
     "buy-subscription.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "Buy Subscription",
+        "meta_descr": "Buy FHD+ subscription of (Netflix, Amazon Prime, Hotstar) in cheap price.",
+        "title": "Buy Subscription - SubscriptionTool.com",
         "order": 3
       },
       "components": [
@@ -1926,8 +1926,8 @@
     },
     "sell-subscription.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "Sell Subscription",
+        "meta_descr": "Sell subscription of (Netflix, Amazon Prime, Hotstar) to Earn Money.",
+        "title": "Sell Subscription - SubscriptionTool.com",
         "order": 2
       },
       "components": [
@@ -2468,8 +2468,8 @@
     },
     "contact.html": {
       "settings": {
-        "meta_descr": "Web Page Creator Description",
-        "title": "Contact Us",
+        "meta_descr": "If you have any question in your mind please Contact Subscription Tool Team.",
+        "title": "Contact Us - SubscriptionTool.com",
         "order": 1
       },
       "components": [
